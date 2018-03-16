@@ -44,7 +44,5 @@ end
 
 
 def swap_elements(array)
-  array.sort do |a,b|
-    b<=>a
-  end
+  return [array[0],array[2],array[1]]
 end
