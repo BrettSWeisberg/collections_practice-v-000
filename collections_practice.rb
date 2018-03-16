@@ -3,7 +3,7 @@ def sort_array_asc(array)
     a<=>b
     end
   end
-  
+
   def sort_array_desc(array)
   array.sort! do |a,b|
     b<=>a
@@ -41,3 +41,8 @@ def add_s(array)
     end
   end
 end
+
+
+def swap_elements(array)
+  
+  end
